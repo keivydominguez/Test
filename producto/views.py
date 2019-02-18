@@ -15,7 +15,7 @@ def index(request):
 
     # aqui van las listas
 
-    lista.append()
+
 
     ctx= {
         "texto": "producto y tipo"
