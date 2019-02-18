@@ -5,6 +5,31 @@
     <title>Title</title>
 </head>
 <body>
-    <h2>{{ texto }}</h2>
+<h2>{{ texto }}</h2>
+
+<table class="egt">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Marca</th>
+        <th>Tipo</th>
+        <th>Precio</th>
+        <th>Editar</th>
+        <th>Borrar</th>
+    </tr>
+        {% for foo in lista %}
+            <tr>
+            <td>{{ foo.id }}</td>
+            <td>{{ foo.nombre }}</td>
+            <td>{{ foo.tipo }}</td>
+            <td>{{ foo.marca }}</td>
+            <td>{{ foo.precio }}</td>
+            <td>b</td>
+                        </tr>
+
+        {% endfor %}
+
+
+</table>
 </body>
 </html>
