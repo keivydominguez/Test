@@ -36,3 +36,7 @@ def borrar_producto(request, id):
     Pro_borrar.delete()
     Pro_borrar.save()
     return HttpResponseRedirect('/producto/')
+
+def nuevo_producto(request):
+    print("hola")
+    return render(request, 'producto/formulario.html')
