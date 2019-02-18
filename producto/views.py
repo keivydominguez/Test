@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 
 from .models import Producto
 
@@ -30,3 +30,9 @@ def index(request):
         "lista": productos,
     }
     return render(request, 'producto/producto.html', ctx)
+
+def borrar_producto(request, id):
+    Pro_borrar = Producto.objects.get(id=id)
+    Pro_borrar.delete()
+    Pro_borrar.save()
+    return HttpResponseRedirect('/producto/')
