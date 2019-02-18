@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6cabe91-7e86-480b-8f30-d8b490bc63f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/producto/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,12 +173,12 @@
       <workItem from="1550267064587" duration="1415000" />
       <workItem from="1550331655458" duration="7433000" />
       <workItem from="1550462211699" duration="1907000" />
-      <workItem from="1550510417906" duration="5196000" />
+      <workItem from="1550510417906" duration="5469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15951000" />
+    <option name="totallyTimeSpent" value="16224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -207,6 +208,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testpostgres/wsgi.py">
