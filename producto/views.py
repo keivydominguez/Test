@@ -37,7 +37,6 @@ def index(request):
 def borrar_producto(request, id):
     Pro_borrar = Producto.objects.get(id=id)
     Pro_borrar.delete()
-    Pro_borrar.save()
     return HttpResponseRedirect('/producto/')
 
 def nuevo_producto(request):
