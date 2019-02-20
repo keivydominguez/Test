@@ -14,7 +14,7 @@ class Marca(models.Model):
         return self.marca_nombre
 
 class Producto(models.Model):
-    nombre = models.CharField(max_length=200)
+    nombre = models.CharField(max_length=200, blank=False, null=False)
     tipo   = models.ForeignKey(Tipo, on_delete=models.CASCADE, null=True, blank=True)
     marca  = models.ForeignKey(Marca, on_delete=models.CASCADE, null=True, blank=True)
     precio = models.FloatField(null=True, blank=True)

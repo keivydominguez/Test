@@ -23,7 +23,7 @@
             <td>{{ foo.tipo }}</td>
             <td>{{ foo.marca }}</td>
             <td>{{ foo.precio }}</td>
-                <td><a href="">Editar</a></td>
+                <td><a href="/producto/editar/{{ foo.id }}">Editar</a></td>
                 <td><a href="/producto/borrar/{{ foo.id }}">Borrar</a></td>
                         </tr>
 
@@ -31,6 +31,6 @@
 
 
 </table>
-<h5><a href="#">Nuevo</a> </h5>
+<h5><a href="/producto/formulario">Nuevo</a> </h5>
 </body>
 </html>
