@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipo</title>
+</head>
+<body>
+<h1>{{ text }}</h1>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+    </tr>
+    {% for foo in date_marca %}
+        <tr>
+            <td>{{ foo.id }}</td>
+            <td>{{ foo.marca_nombre }}</td>
+            <td><a href="/marca/editar/{{ foo.id }}">Editar</a></td>
+            <td><a href="/marca/borrar/{{ foo.id }}">Borrar</a></td>
+        </tr>
+    {% endfor %}
+</table>
+<h5><a href="/marca/formulario">Nuevo</a></h5>
+</body>
+</html>
