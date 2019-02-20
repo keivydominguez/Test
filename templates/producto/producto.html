@@ -14,8 +14,7 @@
         <th>Marca</th>
         <th>Tipo</th>
         <th>Precio</th>
-        <th>Editar</th>
-        <th>Borrar</th>
+
     </tr>
         {% for foo in lista %}
             <tr>
@@ -24,12 +23,14 @@
             <td>{{ foo.tipo }}</td>
             <td>{{ foo.marca }}</td>
             <td>{{ foo.precio }}</td>
-            <td>b</td>
+                <td><a href="/producto/editar/{{ foo.id }}">Editar</a></td>
+                <td><a href="/producto/borrar/{{ foo.id }}">Borrar</a></td>
                         </tr>
 
         {% endfor %}
 
 
 </table>
+<h5><a href="/producto/formulario">Nuevo</a> </h5>
 </body>
 </html>
