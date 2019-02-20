@@ -4,9 +4,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import Producto, Tipo, Marca
-from .forms import ProductoForm
+from .forms import ProductoForm, MarcaForm
 
-
+#tabla de producto
 def index(request):
     # aqui llamas a los produstors query
     productos = Producto.objects.all()
@@ -104,3 +104,53 @@ class GetAllProduct(APIView):
             })
 
         return Response(list)
+
+#tabla de marca
+def marca(request):
+    marca_date= Marca.objects.all()
+
+    dic_marca={
+        "text": "Tabla Marca",
+        "date_marca": marca_date,
+    }
+    return render(request, 'producto/marca.html', dic_marca)
+
+def borrar_marca(request, id):
+    tip_marca=Marca.objects.get(id=id)
+    tip_marca.delete()
+    return HttpResponseRedirect('/marca/')
+
+def nuevo_marca(request):
+    if request.method =="POST":
+        obj_marca = MarcaForm(request.POST)
+        if obj_marca.is_valid():
+            mar= obj_marca.save()
+        else:
+            return HttpResponseRedirect('/marca/')
+        return HttpResponseRedirect('/marca/')
+
+
+    else:
+        form_marca = MarcaForm()
+
+        dic_marca = {
+            "form_marca": form_marca
+        }
+        return render(request, 'producto/marcaformulario.html', dic_marca)
+
+def editar_marca(request, id):
+
+    if request.method =="POST":
+        marca = Marca.objects.get(id=id)
+        obj_marca = MarcaForm(request.POST, instance=marca)
+        if obj_marca.is_valid():
+            mar = obj_marca.save()
+        return HttpResponseRedirect('/marca')
+    else:
+        marca = Marca.objects.get(id=id)
+        form_marca = MarcaForm(instance=marca)
+
+        dic_marca = {
+            "form_marca": form_marca
+        }
+        return render(request, 'producto/marcaformulario.html', dic_marca)
