@@ -297,3 +297,21 @@ class VistaProducto(APIView):
 
         return Response(list)
 
+class EditarProducto(APIView):
+    def post(self, request, *args, **kwargs):
+        id = request.data.get("id")
+        nombre = request.data.get("nombre")
+        marca = request.data.get("marca")
+        marca = Marca.objects.get(id=marca)
+        tipo = request.data.get("tipo")
+        tipo = Tipo.objects.get(id=tipo)
+        precio = request.data.get("precio")
+
+        producto = Producto.objects.get(id=id)
+        producto.nombre = nombre
+        producto.marca = marca
+        producto.tipo = tipo
+        producto.precio = precio
+
+        producto.save()
+        return Response("")

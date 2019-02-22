@@ -20,6 +20,8 @@ urlpatterns = [
     path('list_tipo', views.ListTipo.as_view()),
     #ESta API muesta todo lo que tiene proeducto
     path('vista_producto', views.VistaProducto.as_view()),
+    #ESta API edita todo lkos datos de producto
+    path('editar_producto', views.EditarProducto.as_view()),
 
 
     path('marca/', views.marca, name='marca_principal'),
