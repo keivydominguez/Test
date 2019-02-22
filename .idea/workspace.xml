@@ -47,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/producto/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="96">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/producto/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="283" column="24" selection-start-line="283" selection-start-column="24" selection-end-line="283" selection-end-column="24" />
+            <state relative-caret-position="-1135">
+              <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -423,7 +423,7 @@
       <workItem from="1550599125017" duration="14907000" />
       <workItem from="1550638941449" duration="2723000" />
       <workItem from="1550687379199" duration="937000" />
-      <workItem from="1550862110031" duration="8244000" />
+      <workItem from="1550862110031" duration="9040000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc">
       <created>1550519729580</created>
@@ -436,11 +436,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68109000" />
+    <option name="totallyTimeSpent" value="68905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.46854305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -455,10 +454,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5059856" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5738228" weight="0.26547232" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.57302475" visible="true" weight="0.26547232" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.40143654" side_tool="true" visible="true" weight="0.31921825" />
-      <window_info anchor="bottom" id="REST Client" order="13" sideWeight="0.59856343" visible="true" weight="0.31921825" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.42697525" side_tool="true" visible="true" weight="0.26547232" />
+      <window_info anchor="bottom" id="REST Client" order="13" sideWeight="0.59856343" weight="0.34527686" />
       <window_info anchor="bottom" id="Thumbnails" order="14" sideWeight="0.49960095" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -636,22 +635,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/producto/urls.py">
+    <entry file="file://$PROJECT_DIR$/producto/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="46" />
+        <state relative-caret-position="-1135">
+          <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/producto/views.py">
+    <entry file="file://$PROJECT_DIR$/producto/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="283" column="24" selection-start-line="283" selection-start-column="24" selection-end-line="283" selection-end-column="24" />
+        <state relative-caret-position="96">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
