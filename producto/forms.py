@@ -1,7 +1,7 @@
 from django import forms
 from django.forms import TextInput, Textarea
 
-from .models import Producto,Marca
+from .models import Producto, Marca, Tipo
 
 class ProductoForm(forms.ModelForm):
 
@@ -21,4 +21,14 @@ class MarcaForm(forms.ModelForm):
         fields= '__all__'
         widgets= {
             "marca_nombre": TextInput(attrs={"class":"class_1"})
+        }
+
+
+class TipoForm(forms.ModelForm):
+
+    class Meta:
+        model= Tipo
+        fields= '__all__'
+        widgets={
+            "tipo_nombre": TextInput(attrs={"class":"class_1"})
         }

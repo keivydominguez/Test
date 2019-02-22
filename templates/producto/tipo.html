@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{ text }}</h1>
+
+<table class="tag">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+    </tr>
+
+    {% for foo in data_tipo %}
+        <tr>
+        <td>{{ foo.id }}</td>
+        <td>{{ foo.tipo_nombre }}</td>
+        <td><a href="/tipo/editar/{{ foo.id }}">Editar</a></td>
+        <td><a href="/tipo/borrar/{{ foo.id }}">Borrar</a></td>
+        <tr>
+    {% endfor %}
+</table>
+<h5><a href="/tipo/formulario/">Nuevo</a></h5>
+</body>
+</html>
