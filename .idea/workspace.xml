@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6cabe91-7e86-480b-8f30-d8b490bc63f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/producto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/producto/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/producto/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -344,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api_4#1">
+  <component name="RunManager" selected="Django server.testpostgres">
     <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
       <method v="2" />
     </configuration>
@@ -407,7 +406,7 @@
       <workItem from="1550599125017" duration="14907000" />
       <workItem from="1550638941449" duration="2723000" />
       <workItem from="1550687379199" duration="937000" />
-      <workItem from="1550862110031" duration="9713000" />
+      <workItem from="1550862110031" duration="10196000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc">
       <created>1550519729580</created>
@@ -420,11 +419,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69578000" />
+    <option name="totallyTimeSpent" value="70061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16520351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,12 +434,12 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5059856" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.57302475" visible="true" weight="0.26547232" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5059856" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960095" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.57222664" visible="true" weight="0.26547232" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.42697525" side_tool="true" visible="true" weight="0.26547232" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.42777336" side_tool="true" weight="0.26547232" />
       <window_info anchor="bottom" id="REST Client" order="13" sideWeight="0.59856343" weight="0.34527686" />
       <window_info anchor="bottom" id="Thumbnails" order="14" sideWeight="0.49960095" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
