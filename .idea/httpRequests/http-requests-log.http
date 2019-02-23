@@ -1,84 +1,368 @@
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041851.200.json
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041717.200.json
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041714.500.html
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041616.500.html
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041613.200.json
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041501.200.json
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041457.500.html
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041351.500.html
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-02-19T041317.500.txt
-
-###
-
-POST http://127.0.0.1:8000/get_all_products
+POST http://127.0.0.1:8000/get_produtc?id=4
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-POST http://127.0.0.1:8000/get_all_products
+POST http://127.0.0.1:8000/get_produtc?id=4
 Accept: */*
 Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053824.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053818.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053808.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053703.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053639.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053622.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053314.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc/?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053304.404.html
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053241.400.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T053238.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052636-1.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052636.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052632.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052555.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052553.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052511.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052507.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052133.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T052130.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050509.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050507.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050415.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050413.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050403.500.txt
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050401.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050333.200.json
+
+###
+
+GET http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050328.405.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050307.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050214.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050213.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050210.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050135.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T050132.200.json
+
+###
+
+POST http://127.0.0.1:8000/get_produtc?id=4
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-02-20T045908.200.json
 
 ###
 
