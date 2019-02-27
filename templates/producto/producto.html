@@ -16,18 +16,19 @@
         <th>Precio</th>
 
     </tr>
-        {% for foo in lista %}
-            <tr>
+    {% for foo in object_list %}
+        <tr>
             <td>{{ foo.id }}</td>
             <td>{{ foo.nombre }}</td>
             <td>{{ foo.tipo }}</td>
             <td>{{ foo.marca }}</td>
             <td>{{ foo.precio }}</td>
-                <td><a href="/producto/editar/{{ foo.id }}">Editar</a></td>
-                <td><a href="/producto/borrar/{{ foo.id }}">Borrar</a></td>
-                        </tr>
-
-        {% endfor %}
+            <td><a href="/producto/editar/{{ foo.id }}">Editar</a></td>
+            <td><a href="/producto/borrar/{{ foo.id }}">Borrar</a></td>
+        </tr>
+    {% empty %}
+        <h5>sin datos</h5>
+    {% endfor %}
 
 
 </table>
