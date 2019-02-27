@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/producto/formulario.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+            <state relative-caret-position="162">
+              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -109,8 +109,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="716" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="650" />
     <option name="height" value="743" />
@@ -247,7 +247,7 @@
       <workItem from="1551117061268" duration="8809000" />
       <workItem from="1551194405039" duration="1003000" />
       <workItem from="1551204392812" duration="10903000" />
-      <workItem from="1551287968860" duration="11629000" />
+      <workItem from="1551287968860" duration="12003000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc">
       <created>1550519729580</created>
@@ -260,11 +260,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92949000" />
+    <option name="totallyTimeSpent" value="93323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="25" width="650" height="743" extended-state="4" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.36754966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,8 +278,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5059856" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.53642386" visible="true" weight="0.26058632" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.46357617" side_tool="true" visible="true" weight="0.26058632" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.53790903" visible="true" weight="0.26058632" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.46209097" side_tool="true" visible="true" weight="0.26058632" />
       <window_info active="true" anchor="bottom" id="REST Client" order="12" sideWeight="0.59856343" visible="true" weight="0.6368078" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49834436" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -467,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/producto/formulario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        <state relative-caret-position="162">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
         </state>
       </provider>
     </entry>
