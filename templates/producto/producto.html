@@ -1,24 +1,31 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{% static 'producto/css/estilo.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" type="text/css">
+
 </head>
 <body>
-<h2>{{ texto }}</h2>
+<h2>Producto</h2>
 
-<table class="egt">
-    <tr>
-        <th>ID</th>
-        <th>Nombre</th>
-        <th>Marca</th>
-        <th>Tipo</th>
-        <th>Precio</th>
+<table class="table table-hover table-dark">
+    <tr class="bg-info">
+        <th scope="col">ID</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Marca</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Precio</th>
+        <th></th>
+        <th></th>
 
     </tr>
     {% for foo in object_list %}
         <tr>
-            <td>{{ foo.id }}</td>
+            <th scope="row">{{ foo.id }}</th>
             <td>{{ foo.nombre }}</td>
             <td>{{ foo.tipo }}</td>
             <td>{{ foo.marca }}</td>
@@ -30,8 +37,10 @@
         <h5>sin datos</h5>
     {% endfor %}
 
-
 </table>
-<h5><a href="/producto/formulario">Nuevo</a> </h5>
+
+<a class="btn btn-outline-success" href="/producto/formulario" role="button">Nuevo</a>
+
+<script src="{% static 'producto/js/holamundo.js' %}"> </script>
 </body>
 </html>

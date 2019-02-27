@@ -1,3 +1,4 @@
+from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from rest_framework.response import Response
@@ -5,6 +6,12 @@ from rest_framework.views import APIView
 
 from .models import Producto, Tipo, Marca
 from .forms import ProductoForm
+from django.views.generic import ListView
+
+
+class ProducListView(ListView):
+    model = Producto
+    template_name = "producto/producto.html"
 
 
 def index(request):
