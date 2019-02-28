@@ -21,3 +21,12 @@ class Producto(models.Model):
 
     def __str__(self):
         return self.nombre
+
+
+class Numero(models.Model):
+    numero1 = models.CharField(max_length=100)
+    numero2 = models.CharField(max_length=100)
+    numero3 = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.numero1
