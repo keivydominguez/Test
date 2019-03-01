@@ -8,9 +8,4 @@ class NumeroForm(forms.ModelForm):
     #pro= forms.CharField(label=#"producto", max_length=50)
     class Meta:
         model = Numero
-        fields = ("numero1", "numero2", "")
-        model= Producto
-        fields= ("nombre", "marca", "tipo", "precio")
-        widgets={
-             "nombre": TextInput(attrs= {"class":"class_1"})
-         }
+        fields = ("numero1", "numero2", "numero3")

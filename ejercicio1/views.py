@@ -3,6 +3,8 @@ import random
 from django.shortcuts import render
 from random import randrange
 from .models import Numero
+from .forms import NumeroForm
+from django.http import HttpResponse, HttpResponseRedirect
 
 # Create your views here.
 
@@ -30,36 +32,26 @@ def holamundo(request):
 
     return render(request, 'ejercico1/holamundo.html', dic)
 
-def numero_medio(resquets):
-    if resquets.method == "POST":
-        obj_numero =
-
-
+def numero_medio(request):
     if request.method == "POST":
-        obj_producto = ProductoForm(request.POST)
-        if obj_producto.is_valid():
-            pro = obj_producto.save()
+        num1 =request.POST.get('numero1')
+        num2 =request.POST.get('numero2')
+        num3 =request.POST.get('numero3')
+
+    if num1 <= num2:
+
+        if num2 <= num3:
+            medio = num2
         else:
-            print("error")
-            return HttpResponseRedirect('/producto/')
-
-        # name=   request.POST.get('name')
-        # marca=  request.POST.get('marca')
-        # tipo=   request.POST.get('tipo')
-        # precio= request.POST.get('precio')
-        # obj_marca = Marca.objects.get(id=marca)
-        # obj_tipo = Tipo.objects.get(id=tipo)
-        #
-        # p = Producto(nombre=name, marca=obj_marca, tipo=obj_tipo, precio=precio)
-        # p.save()
-
-        return HttpResponseRedirect('/producto/')
-
+            num3 <= num1
+            medio = num3
     else:
-        form_producto = ProductoForm()
 
-        dic = {
+        medio = num1
 
-            "form_producto_dic": form_producto
-        }
-    return render(request, 'producto/formulario.html', dic)
+    dic = {
+
+        "mediano": medio,
+
+    }
+    return render(request, 'ejercico1/formulario.html', dic)

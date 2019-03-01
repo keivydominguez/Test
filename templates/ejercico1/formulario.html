@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+    <label id="numero1">Numero 1</label>
+    <input type="text" name="numero1" size="25">
+
+     <label id="numero2">Numero 2</label>
+    <input type="text" name="numero2" size="25">
+
+     <label id="numero3">Numero 3</label>
+    <input type="text" name="numero3" size="25">
+
+    <button type="submit" class="btn btn-danger">Enviar</button>
+</form>
+<h4>EL numero del medio es {{ mediano }}</h4>
+</body>
+</html>

@@ -10,14 +10,14 @@
     <tr>
         <th>Numeros</th>
         <th>Par e impar</th>
-    </tr>
-    {% for foo in list %}
+    </tr>{% for foo in list %}
         <tr>
             <td>{{ foo.numero }}</td>
             <td>{{ foo.status }}</td>
         </tr>
 
     {% endfor %}
+
 
 </table>
 </body>
