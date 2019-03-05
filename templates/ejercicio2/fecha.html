@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fecha</title>
+</head>
+<body>
+<h1>{{ bienvenido }}</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <label id="ejemplo">Ingrese fecha: </label>
+    <input type="date" name="ejemplo" size="30">
+
+     <button type="submit" class="btn btn-danger">Enviar</button>
+</form>
+<h5>Fceha: {{ ejemplo }}</h5>
+<h5>Lunes a Viernes: </h5>
+<p>{{ semana }}</p>
+<h5>Dia del 366: </h5>
+<p>{{ dia }}</p>
+<h5>Semanas: </h5>
+<p>{{ diasemana }}</p>
+<h5>Falta para mi cumple: </h5>
+<p>{{ cumple }}</p>
+<h5>Finaliza el ciclo: </h5>
+<p>{{ termina }}</p>
+<h5>El mes tiene: {{ imprimirdia }} dias</h5>
+<h5>An pasado: {{ nesquepaso }} meses</h5>
+<h5>{{ x }}</h5>
+</body>
+</html>
