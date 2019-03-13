@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ejercicio2/views.py" line="65" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6cabe91-7e86-480b-8f30-d8b490bc63f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ejercicio2/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio2/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ejercicio2/fecha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ejercicio2/whileabc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testpostgres/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/testpostgres/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testpostgres/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testpostgres/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ejercicio2/for_palabras.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ejercicio2/for_palabras.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ejercicio2/reversa.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ejercicio2/reversa.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,32 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ejercicio2/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Testentorno/lib/python3.6/site-packages/django/core/handlers/base.py">
+        <entry file="file://$PROJECT_DIR$/templates/ejercicio2/abc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ejercicio2/fecha.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -56,8 +36,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejercicio2/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejercicio2/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="222" column="14" lean-forward="true" selection-start-line="222" selection-start-column="14" selection-end-line="222" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ejercicio2/whileabc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -101,10 +105,15 @@
         <option value="$PROJECT_DIR$/templates/ejercico1/listacompras.html" />
         <option value="$PROJECT_DIR$/ejercicio1/urls.py" />
         <option value="$PROJECT_DIR$/ejercicio1/views.py" />
-        <option value="$PROJECT_DIR$/ejercicio2/urls.py" />
         <option value="$PROJECT_DIR$/testpostgres/settings.py" />
         <option value="$PROJECT_DIR$/testpostgres/urls.py" />
         <option value="$PROJECT_DIR$/templates/ejercicio2/fecha.html" />
+        <option value="$PROJECT_DIR$/templates/ejercicio2/telefono.html" />
+        <option value="$PROJECT_DIR$/templates/ejercicio2/for_palabras.html" />
+        <option value="$PROJECT_DIR$/templates/ejercicio2/reversa.html" />
+        <option value="$PROJECT_DIR$/templates/ejercicio2/abc.html" />
+        <option value="$PROJECT_DIR$/ejercicio2/urls.py" />
+        <option value="$PROJECT_DIR$/templates/ejercicio2/whileabc.html" />
         <option value="$PROJECT_DIR$/ejercicio2/views.py" />
       </list>
     </option>
@@ -138,6 +147,12 @@
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="ejercicio2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,6 +273,14 @@
       <workItem from="1551720743788" duration="3601000" />
       <workItem from="1551724370436" duration="37000" />
       <workItem from="1551724588449" duration="15079000" />
+      <workItem from="1551758650198" duration="2340000" />
+      <workItem from="1551807881281" duration="643000" />
+      <workItem from="1551893205874" duration="12348000" />
+      <workItem from="1551986846755" duration="893000" />
+      <workItem from="1552414130775" duration="16376000" />
+      <workItem from="1552441739314" duration="7736000" />
+      <workItem from="1552497181432" duration="8853000" />
+      <workItem from="1552508915322" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc">
       <created>1550519729580</created>
@@ -270,17 +293,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135599000" />
+    <option name="totallyTimeSpent" value="185513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20670392" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18994413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960095" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49960095" weight="0.3990228" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.75339186" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -288,8 +312,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5059856" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.52992815" visible="true" weight="0.30130294" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.47007182" side_tool="true" weight="0.30130294" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4980048" visible="true" weight="0.36319217" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.5019952" side_tool="true" visible="true" weight="0.36319217" />
       <window_info active="true" anchor="bottom" id="REST Client" order="12" sideWeight="0.59856343" visible="true" weight="0.6368078" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49720672" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -298,30 +322,6 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20031923" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960095" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5059856" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5323224" visible="true" weight="0.3029316" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.46767756" side_tool="true" visible="true" weight="0.3029316" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="12" sideWeight="0.59856343" visible="true" weight="0.6368078" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49720672" weight="0.32899022" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -329,17 +329,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/keivydominguez/Test&#10;&#10;# Conflicts:&#10;#&#9;producto/__pycache__/views.cpython-36.pyc" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ejercicio2/views.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/producto/admin.py">
@@ -411,24 +400,10 @@
     <entry file="file://$PROJECT_DIR$/static/producto/js/holamundo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/producto/producto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio1/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ejercico1/holamundo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -452,21 +427,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/producto/formulario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/ejercico1/listacompras.html" />
-    <entry file="file://$PROJECT_DIR$/templates/ejercico1/formulario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio1/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178" />
@@ -474,16 +435,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio2/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/producto/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testpostgres/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -502,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio1/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -522,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio2/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -536,35 +470,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/telefono.html" />
+    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/fecha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ejercico1/formulario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ejercico1/holamundo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/for_palabras.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/producto/formulario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio1/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Testentorno/lib/python3.6/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Testentorno/lib/python3.6/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Testentorno/lib/python3.6/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producto/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/producto/producto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/producto/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
+        <state relative-caret-position="168">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Testentorno/lib/python3.6/site-packages/django/core/handlers/base.py">
+    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/reversa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/fecha.html">
+    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/abc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ejercicio2/whileabc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="154">
+          <caret line="222" column="14" lean-forward="true" selection-start-line="222" selection-start-column="14" selection-end-line="222" selection-end-column="14" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

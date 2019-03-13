@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC</title>
+</head>
+<body>
+<h3>{{ text }}</h3>
+
+<form action="/ejercicio2/abc/" method="post">
+    {% csrf_token %}
+    <label id="abc">Ingrese una letra:</label>
+    <input type="text" name="abc" size="30">
+    <button type="submit" class="btn btn-danger">Enviar</button>
+</form>
+
+<h3>{{ acomodar }}</h3>
+
+<form action="/ejercicio2/regresar/" method="post">
+    {% csrf_token %}
+    <input type="hidden" name="regresar"  value="{{ acomodar }}">
+    <button type="submit" class="btn btn-danger">Regresar</button>
+</form>
+
+<h3>{{ acomodar1 }}</h3>
+
+</body>
+</html>

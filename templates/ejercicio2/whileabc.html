@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>while abc</title>
+</head>
+<body>
+<h3>{{ text }}</h3>
+
+<form action="/ejercicio2/whileabc/" method="post">
+    {% csrf_token %}
+    <label id="abc">Ingrese la palabra: </label>
+    <input type="text" name="abc" size="30">
+    <button type="submit" class="btn btn-danger">Enviar</button>
+
+</form>
+
+<h5>{{ acomodar }}</h5>
+
+<form action="/ejercicio2/whileregresa/" method="post">
+    {% csrf_token %}
+    <input type="hidden" name="regresar" value="{{ acomodar }}">
+    <button type="submit" class="btn btn-danger">Regresar</button>
+</form>
+
+<h5>{{ acomodar1 }}</h5>
+
+</body>
+</html>
